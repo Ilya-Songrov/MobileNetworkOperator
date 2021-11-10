@@ -1,0 +1,3 @@
+[submodule "mcc-mnc-table"]
+	path = mcc-mnc-table
+	url = https://github.com/musalbas/mcc-mnc-table.git
