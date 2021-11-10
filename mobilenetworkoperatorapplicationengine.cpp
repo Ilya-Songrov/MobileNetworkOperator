@@ -8,7 +8,7 @@ MobileNetworkOperatorApplicationEngine::MobileNetworkOperatorApplicationEngine(Q
     , managerDb(new ManagerDb("mcc-mnc-database.db"))
     , dbCreator(new DbCreator())
     #else
-    , managerDb(new ManagerDb("system.db"))
+    , managerDb(new ManagerDb("mcc-mnc-database.db"))
     #endif
 {
 #ifdef QT_DEBUG
