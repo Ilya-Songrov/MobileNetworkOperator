@@ -1,6 +1,6 @@
 ## TreeView with Qt/QML
 
-![Screen Shot](md/merge_image_2021-10-26_19-48-52.png)
+![Screen Shot](md/Merged_document.png)
 
 ## How to build (Ubuntu 20.04) (Qt 5.15.2)
 ```
