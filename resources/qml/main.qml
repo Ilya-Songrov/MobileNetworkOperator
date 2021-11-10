@@ -20,12 +20,21 @@ ApplicationWindow {
         itemDelegate: Item {
             RowLayout {
                 Image {
+                    property real widthIcon: labelName.height * 0.8
+
                     id: imageIcon
+                    width: 2
+                    height: 2
                     Layout.fillWidth: true
+                    Layout.minimumWidth: widthIcon
+                    Layout.maximumWidth: widthIcon
                     Layout.fillHeight: true
+                    Layout.minimumHeight: widthIcon
+                    Layout.maximumHeight: widthIcon
                     source: styleData.value ? styleData.value.icon : ""
                 }
                 Label {
+                    id: labelName
                     Layout.fillWidth: true
                     Layout.fillHeight: true
                     Layout.alignment: Qt.AlignLeft | Qt.AlignVCenter

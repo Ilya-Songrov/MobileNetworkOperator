@@ -27,8 +27,8 @@ HEADERS += \
         treeview/treemodel.h
 
 RESOURCES += \
-        resources/qml.qrc \
-        resources/images.qrc
+        images.qrc \
+        resources/qml.qrc
 
 INCLUDEPATH += \
         treeview \

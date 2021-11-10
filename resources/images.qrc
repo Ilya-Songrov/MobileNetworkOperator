@@ -1,7 +1,0 @@
-<RCC>
-    <qresource prefix="/countries"/>
-    <qresource prefix="/operators"/>
-    <qresource prefix="/otherImages">
-        <file>otherImages/question_icon.png</file>
-    </qresource>
-</RCC>

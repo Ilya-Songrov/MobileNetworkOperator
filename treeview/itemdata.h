@@ -29,11 +29,11 @@ struct NodeData{
 };
 
 
-const QString question_icon  { "qrc:/otherImages/otherImages/question_icon.png" };
+const QString question_icon  { "qrc:/otherImages/resources/otherImages/question_icon.png" };
 inline QString createCountryIcon(const QString &str_code)
 {
-    const QString folder    = "qrc:/countries/countries/";
-    const QString path      = folder + str_code + ".png";
+    const QString folder    = "qrc:/countries/country-flag-icons/flags/1x1/";
+    const QString path      = folder + str_code.toUpper() + ".svg";
     return QFile::exists(path.right(path.size() - 3)) ? path : question_icon;
 }
 

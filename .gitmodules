@@ -1,3 +1,6 @@
 [submodule "mcc-mnc-table"]
 	path = mcc-mnc-table
 	url = https://github.com/musalbas/mcc-mnc-table.git
+[submodule "country-flag-icons"]
+	path = country-flag-icons
+	url = https://github.com/catamphetamine/country-flag-icons.git
