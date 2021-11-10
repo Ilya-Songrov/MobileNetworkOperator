@@ -1,0 +1,29 @@
+#!/bin/bash
+
+
+#-------------------------------------------------------------------------------
+# script initialization
+#-------------------------------------------------------------------------------
+
+prog="$(basename $0)"
+path_of_dir=$(realpath .)
+
+
+#if [ "$1" == "-h" ]; then
+#	echo -e "Usage: bash $0 <path_to_qmake> \
+#	\n\n# For example: bash $0 ~/Qt/5.15.2/gcc_64/bin/qmake"
+#	exit 0
+#fi
+
+#if [ -z "$1" ]; then
+#     echo -e "\nError! Please enter all arguments (run flag: -h)\n"
+#     exit 1
+#fi
+
+#pathToQmake=$1
+#path_builds_submodules=$path_of_dir/builds_submodules
+#mkdir -p $path_builds_submodules
+
+echo -e "\nRun:\n$(sed -n $((${LINENO}+1))\p $path_of_dir/$prog) \n"
+git submodule update --init --recursive \
+|| { exitCode=$?; echo -e "\033[48;2;223;30;7m\n\n\n Failed... (exitCode: $exitCode; FILE=$0) \n\n\033[0m"; exit $exitCode; }

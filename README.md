@@ -8,6 +8,7 @@ git clone <this_repo>
 cd <this_repo>
 git checkout master
 git pull
+./configure
 mkdir build
 cd build
 qmake ..
