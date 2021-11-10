@@ -256,8 +256,17 @@
         <file>country-flag-icons/flags/1x1/ZM.svg</file>
         <file>country-flag-icons/flags/1x1/ZW.svg</file>
     </qresource>
-    <qresource prefix="/operators"/>
+    <qresource prefix="/operators">
+        <file>resources/operators/276_02.png</file>
+        <file>resources/operators/426_02.png</file>
+        <file>resources/operators/505_03.png</file>
+        <file>resources/operators/505_07.png</file>
+        <file>resources/operators/505_08.png</file>
+        <file>resources/operators/505_13.png</file>
+        <file>resources/operators/505_99.png</file>
+        <file>resources/operators/276_03.png</file>
+    </qresource>
     <qresource prefix="/otherImages">
-        <file>resources/otherImages/question_icon.png</file>
+        <file>resources/otherImages/3017955_examination_inquiry_interrogation_investigation_poll_icon.svg</file>
     </qresource>
 </RCC>

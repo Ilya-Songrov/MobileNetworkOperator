@@ -75,6 +75,8 @@ Dialog {
                 Item {
                     Layout.minimumWidth: itemContent.minWidthDelegate
                     Image {
+                        width: parent.width
+                        height: width
                         anchors.centerIn: parent
                         source: itemContent.operatorIcon
                     }
@@ -130,6 +132,8 @@ Dialog {
                 Item {
                     Layout.minimumWidth: itemContent.minWidthDelegate
                     Image {
+                        width: parent.width
+                        height: width
                         anchors.centerIn: parent
                         source: itemContent.countryIcon
                     }

@@ -1,0 +1,16 @@
+{
+    "example.png": {
+        "author_name": "example",
+        "author_link": "example",
+        "license": "example",
+        "site_download": "example",
+        "image_name": "example.png"
+    },
+    "example.png": {
+        "author_name": "PINPOINT.WORLD",
+        "author_link": "https://pinpoint.world/",
+        "license": "Creative Commons (Attribution 3.0 Unported)",
+        "site_download": "https://www.iconfinder.com/icons/3017955/examination_inquiry_interrogation_investigation_poll_query_question_icon",
+        "image_name": "3017955_examination_inquiry_interrogation_investigation_poll_icon.svg"
+    }
+}

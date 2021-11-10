@@ -29,7 +29,7 @@ struct NodeData{
 };
 
 
-const QString question_icon  { "qrc:/otherImages/resources/otherImages/question_icon.png" };
+const QString question_icon  { "qrc:/otherImages/resources/otherImages/3017955_examination_inquiry_interrogation_investigation_poll_icon.svg" };
 inline QString createCountryIcon(const QString &str_code)
 {
     const QString folder    = "qrc:/countries/country-flag-icons/flags/1x1/";
@@ -39,7 +39,7 @@ inline QString createCountryIcon(const QString &str_code)
 
 inline QString createOperatorIcon(const QString &str_mcc, const QString &str_mnc)
 {
-    const QString folder    = "qrc:/operators/operators/";
+    const QString folder    = "qrc:/operators/resources/operators/";
     const QString path      = folder + str_mcc + "_" + str_mnc + ".png";
     return QFile::exists(path.right(path.size() - 3)) ? path : question_icon;
 }
